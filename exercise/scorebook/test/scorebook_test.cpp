@@ -1,12 +1,15 @@
 #include <eosio/eosio.hpp>
 #include <eosio/tester.hpp>
 
-#include "../src/scorebook.cpp"
+#include "../include/scorebook.hpp"
 
 using namespace eosio;
 using namespace eosio::native;
 
 EOSIO_TEST_BEGIN(scorebook_test)
+	
+	
+	
 
 EOSIO_TEST_END
 

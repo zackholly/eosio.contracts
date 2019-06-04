@@ -1,0 +1,8 @@
+eosio-cpp building native for native tester
+hello example found in eosio.cdt/examples/hello
+
+eosio-cpp -o hello/build/hello_test -I=hello/include -abigen -fnative -R=hello/ricardian hello/src/hello.cpp hello/tests/hello_test.cpp
+
+scorebook example run from /scorebook folder
+
+eosio-cpp -o test/build/scorebook_test -I=include -abigen -fnative -R=ricardian src/scorebook.cpp test/scorebook_test.cpp

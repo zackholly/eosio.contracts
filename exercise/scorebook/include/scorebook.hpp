@@ -13,7 +13,7 @@ private:
 	
 	struct [[eosio::table]] record {
 	uint64_t id = 0;
-	double score =0;
+	double score = 0;
 	uint64_t primary_key() const { return id; }
 	double by_score() const { return score; }
 	};
